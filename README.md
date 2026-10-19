@@ -10,7 +10,6 @@ This folder holds Maven's plugin source. Everything here is meant to be exported
 - `maven-analytics/skills/`: skills shared by Claude Code and Codex.
 - `maven-analytics/.codex-plugin/plugin.json` and `maven-analytics/.codex-plugin/mcp.json`: Codex and ChatGPT plugin manifest and its bundled Maven MCP server.
 - `maven-analytics/README.md`: install steps for Claude Code, Codex, and other MCP clients.
-- `RELEASE_IDENTITY.md`: publisher identity and release coordinates.
 
 The MCP Registry manifest lives at the repository root, in `server.json`, not in this folder. It is remote-only and points at `https://mcp.metricmaven.io/mcp`.
 
