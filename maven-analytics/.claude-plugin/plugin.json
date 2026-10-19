@@ -1,0 +1,13 @@
+{
+  "name": "maven",
+  "version": "0.2.0",
+  "description": "Ask questions of your marketing data and build live reports from Claude Code.",
+  "author": {
+    "name": "MetricMaven",
+    "email": "jamie@metricmaven.io",
+    "url": "https://www.metricmaven.io"
+  },
+  "homepage": "https://www.metricmaven.io/maven",
+  "license": "Proprietary",
+  "keywords": ["analytics", "marketing", "reporting", "tracking", "ga4", "gtm", "mcp", "maven"]
+}

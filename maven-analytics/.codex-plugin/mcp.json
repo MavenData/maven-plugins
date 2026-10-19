@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "maven": {
+      "type": "http",
+      "url": "https://mcp.metricmaven.io/mcp"
+    }
+  }
+}

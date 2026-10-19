@@ -1,0 +1,35 @@
+{
+  "name": "maven-analytics",
+  "version": "0.2.0",
+  "description": "Analyze data and operate authorized Maven workspaces through conversation.",
+  "author": {
+    "name": "MetricMaven",
+    "email": "jamie@metricmaven.io",
+    "url": "https://www.metricmaven.io"
+  },
+  "homepage": "https://www.metricmaven.io/maven",
+  "license": "Proprietary",
+  "keywords": ["analytics", "marketing", "reporting", "dashboards", "tracking", "maven"],
+  "skills": "./skills/",
+  "mcpServers": "./.codex-plugin/mcp.json",
+  "interface": {
+    "displayName": "Maven",
+    "shortDescription": "Marketing data and reports",
+    "longDescription": "Ask questions across the marketing, revenue, commerce, CRM, web, and retail data in your authorized Maven workspace, check data freshness, and build live reports from Maven's governed metrics. Sign in with your Maven account the first time a Maven tool runs.",
+    "developerName": "MetricMaven",
+    "category": "Business & Operations",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://www.metricmaven.io/maven",
+    "supportURL": "https://www.metricmaven.io/contact",
+    "privacyPolicyURL": "https://www.metricmaven.io/privacy",
+    "termsOfServiceURL": "https://www.metricmaven.io/terms",
+    "brandColor": "#1A1A2E",
+    "composerIcon": "./assets/logo-icon-navy.svg",
+    "logo": "./assets/logo-icon-navy.svg",
+    "defaultPrompt": [
+      "What data sources are connected to my Maven workspace?",
+      "Explain what changed in performance this month",
+      "Create a live Maven report from this analysis"
+    ]
+  }
+}
